@@ -59,7 +59,16 @@ class MainActivity : AppCompatActivity() {
         val larsName : String = "Lars"
         println(myString.capitalize())
 
+        //Boolean
+        println("------Boolean--------")
 
+        var myBoolean : Boolean = true
+        myBoolean = false
+
+        var isAlive = true
+
+        println(3<5)
+        println(6<3)
 
     }
 }
