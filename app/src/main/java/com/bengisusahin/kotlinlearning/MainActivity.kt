@@ -97,8 +97,27 @@ class MainActivity : AppCompatActivity() {
         myArray.set(1,"Kirk Hammett")
         println(myArray[1])
 
-        myArray[4] = "Atil Samancioglu"
-        println(myArray[4])
+//        myArray[4] = "Atil Samancioglu"
+//        println(myArray[4])
 
+        //ArrayList
+        val myMixedArrayList = ArrayList<Any>()
+        myMixedArrayList.add("Atil")
+        myMixedArrayList.add(12.25)
+        myMixedArrayList.add(true)
+
+        println(myMixedArrayList[0])
+        println(myMixedArrayList[1])
+        println(myMixedArrayList[2])
+
+        //Set
+        val myExampleArray = arrayOf(1,1,2,3,4)
+        println("first element: ${myExampleArray[0]} sdsdfs")
+
+        val mySet = setOf<Int>(1,1,2,3) //setlerde aynı eleman birden fazla olamaz
+        println(mySet.size) // 3 sonucunu verdi
+
+        //For Each
+        mySet.forEach{ println(it) } //her bir elemanı anlatmak icin it kullaniyoruz (lambda)
     }
 }
