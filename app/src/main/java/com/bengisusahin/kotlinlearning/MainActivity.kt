@@ -70,5 +70,16 @@ class MainActivity : AppCompatActivity() {
         println(3<5)
         println(6<3)
 
+        //Conversion
+        println("------Conversion--------")
+
+        var myNumber = 5
+        var myLongNumber = myNumber.toLong()
+        println(myLongNumber)
+
+        var input = "10"
+        // olmuyo println(input*2)
+        var inputInteger = input.toInt()
+        println(inputInteger*2)
     }
 }
