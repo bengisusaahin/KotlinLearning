@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.bengisusahin.kotlinlearning"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.bengisusahin.kotlinlearning"

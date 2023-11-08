@@ -9,16 +9,24 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // variables && constants
+
+         //Integer
         var x = 5
         var y = 4
 
         println(x*y)
         var age = 35
-        println(age / 7*5)
-        age = 36
-        println(age)
-        val name = "James"
-        val a = 5
+        val result = age / 7 * 5
+        println(result)
+
+        val myInteger : Int
+        //Initialize
+        myInteger = 10
+
+        val a : Int = 23
+
+        println(a/2)
+
 
 
     }
