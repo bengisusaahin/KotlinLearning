@@ -27,6 +27,25 @@ class MainActivity : AppCompatActivity() {
 
         println(a/2)
 
+        //Long
+        var myLong : Long = 100
+
+        //Double & Float
+        val pi = 3.14
+        println(pi*2) //bazi programlama dillerinde izin vermez
+        println(pi*2.0)//ama kotlin veriyor
+
+        //genelde floatın limitlemesinden dolayı double ile calisiriz
+        val myFloat = 3.14f
+        println(myFloat * 2)
+
+        var myAge : Double
+        myAge = 23.0
+        println(myAge / 2)
+
+
+
+
 
 
     }
