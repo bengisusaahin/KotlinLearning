@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         // variables && constants
 
          //Integer
+        println("------Integer--------")
         var x = 5
         var y = 4
 
@@ -31,9 +32,11 @@ class MainActivity : AppCompatActivity() {
         var myLong : Long = 100
 
         //Double & Float
+        println("------Double & Float--------")
+
         val pi = 3.14
         println(pi*2) //bazi programlama dillerinde izin vermez
-        println(pi*2.0)//ama kotlin veriyor
+        //println(pi*2.0)//ama kotlin veriyor
 
         //genelde floatın limitlemesinden dolayı double ile calisiriz
         val myFloat = 3.14f
@@ -43,8 +46,18 @@ class MainActivity : AppCompatActivity() {
         myAge = 23.0
         println(myAge / 2)
 
+        //String
+        println("------String--------")
 
+        val myString = "atil samancioglu"
+        val name = "James"
+        val surname = "Hetfield"
 
+        val fullname = name +" "+surname
+        println(fullname)
+
+        val larsName : String = "Lars"
+        println(myString.capitalize())
 
 
 
