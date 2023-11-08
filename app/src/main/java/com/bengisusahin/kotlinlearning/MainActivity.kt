@@ -81,5 +81,24 @@ class MainActivity : AppCompatActivity() {
         // olmuyo println(input*2)
         var inputInteger = input.toInt()
         println(inputInteger*2)
+
+        //Collections
+
+        //Arays
+        println("------Aray--------")
+
+        val myArray = arrayOf("James","Kirk","Rob","Lars")
+
+        //index
+        println(myArray[0])
+        myArray[0] = "James Hetfield"
+        println(myArray[0])
+
+        myArray.set(1,"Kirk Hammett")
+        println(myArray[1])
+
+        myArray[4] = "Atil Samancioglu"
+        println(myArray[4])
+
     }
 }
